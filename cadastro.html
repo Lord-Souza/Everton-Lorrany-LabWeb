@@ -32,16 +32,19 @@
                    <label for="email"><strong>Email</strong></label>
                    <input type="email" name="email" id="email" required>
                </div>
-               <div class="campo">
-                   <label for="sexo"><strong> Sexo </strong></label>
-                   <input type="radio" name="masculino" id="sexo"> masculino
-                   <input type="radio" name="feminino" id="sexo"> feminino                  
-               </div>
+               <!--Link do Bootstrap para a seleção do sexo-->
+               <div class="campo ">
+                 <input type="radio" name="sexo" id="masculino" value="masculino">
+                 <label for="masculino">Masculino</label>   
+                <input type="radio" name="sexo" id="Feminino" value="Feminino">
+                 <label for="Feminino">Feminino</label>
+                </div>
                <fieldset class="grupo">
                    <div id="check">
                        <label><strong>Selecione os Exames</strong></label><br>
                        <input type="checkbox" id="exame1" name="exame1" value="Hemograma">
                         <label for="exame1"> Hemograma</label>
+                        <br>
                         <input type="checkbox" id="exame2" name="exame2" value="Glicose">
                         <label for="exame2"> Glicose</label>
                         <input type="checkbox" id="exame3" name="exame3" value="Coloesterol">
