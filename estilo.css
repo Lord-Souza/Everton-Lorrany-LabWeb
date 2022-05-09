@@ -22,16 +22,13 @@ header p{
 
 nav#menu{
     display: block;
-    padding: 50px 20px;
-}
-
-nav#menu ul{
-    list-style: None;
-    text-transform: uppercase;
+    padding: 50px 0px;
     text-decoration: none;
-    position: relative;
-    top: 75px;
-    left: 500px;
+    text-transform: uppercase;
+     list-style: None;
+     position: relative;
+    top: -5px;
+    left: 650px;
 }
 
 nav#menu li{
