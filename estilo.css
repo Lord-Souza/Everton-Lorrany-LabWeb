@@ -12,15 +12,17 @@ body{
 
 header h1{
     color: #black;
-    text-align: center;
-    font-family: sans-serif
+    text-align: center;    
+    font-family: sans-serif;
 }
 header p{
     margin-bottom: 2em;
+    display: inline-block;
 }
 
 #logo{
-    position: relative;
+    position: relative;    
+    background-color: greenyellow;
     text-align: center;   
 }
 
