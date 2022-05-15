@@ -26,11 +26,11 @@ header p{
 
 nav#menu{
     display: block;
-    padding: 50px 0px;
+    padding: 20px 0px;
     text-decoration: none;
     text-transform: uppercase;
-     list-style: None;
-     position: relative;
+    list-style: None;
+    position: relative;
     top: -5px;
     left: 650px;
 }
