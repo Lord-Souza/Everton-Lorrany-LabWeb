@@ -33,8 +33,9 @@ nav#menu{
     text-transform: uppercase;
     list-style: none;
     position: relative;
+    margin-left:1000px;
     top: -5px;
-    left: 1000px;
+    
 }
 
 nav#menu li{
@@ -62,4 +63,8 @@ nav#menu a:hover{
     text-decoration: none;
     
     transition: 0.5s;
+}
+
+#login{
+   margin-left: 100px;
 }
