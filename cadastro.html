@@ -16,6 +16,7 @@
     
 </head>
 <body>
+  <!--Menu-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">LabWeb</a>
@@ -40,30 +41,42 @@
             <li><a class="dropdown-item" href="login.html">Login</a></li>
           </ul>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="info.html">Informações</a>
+        </li>
       </ul>
     </div>
   </div>
 </nav>
+<!--fim do Menu-->
   <div class="container">
     <img src="img/logo.jpg">
     <form>
+      <h1 id="titulo"><strong>Cadastro de Paciente</strong></h1>
         <div class="input-group">
-          <span class="input-group-text">Nome Completo</span>
+          <span class="input-group-text"><strong>Nome Completo</strong></span>
           <input id="nomeCompleto" type="text" aria-label="Nome Completo" class="form-control">
         </div>
+        <div class="input-group">
+          <span class="input-group-text">Data de Nascimento</span>
+          <input id="dataNascimento" type="date" aria-label="Data de Nascimento" class="form-control">
+        </div>
+        <div class="input-group">
+                   <span class="input-group-text"><strong>Email</strong></span>
+                   <input id="email" type="email" aria-label="Email" class="form-control">
+               </div>
+        <div>
+          <span class="input-group-text"><strong>Telefone</strong></span>
+          <input id="telefone" type="" aria-label="Telefone" class="form-control">
+        </div>
       </form>
+
     <div class="row">
       <div class="col-2">col</div>
       <div class="col">col</div>
       <div class="col-2">col</div>
     </div>
   </div>
-
-
-
-
-
-
 
 
 
@@ -79,25 +92,12 @@
     </nav>
    </header>
    <div>
-       <h1 id="titulo"><strong>Cadastro de Paciente</strong></h1>
+       
        <form>
-        <div class="input-group">
-          <span class="input-group-text">Nome Completo</span>
-          <input id="nomeCompleto" type="text" aria-label="Nome Completo" class="form-control">
-        </div>
            <fieldset class="grupo">
-               <div class="campo">
-                   <label for="nome"><strong> Nome completo</strong></label>
-                   <input type= "text" name="nome"id="nome" required>
-               </div>
-               <div>
-                   <label><strong>Data de Nascimento</strong></label>
-                   <input type="date" name="data">
-               </div>
-               <div class="campo">
-                   <label for="email"><strong>Email</strong></label>
-                   <input type="email" name="email" id="email" required>
-               </div>
+               
+               
+               
                <div>
                    <label for="telefone"><strong>Telefone</strong></label>
                    <input type="" name="">
