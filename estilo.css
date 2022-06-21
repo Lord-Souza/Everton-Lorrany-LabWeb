@@ -22,7 +22,9 @@ header p{
 
 #logo{ 
     position: relative; 
-    background-color: greenyellow;  
+    background-color: greenyellow;
+    width: 100;
+    height: 100; 
 }
 
 nav#menu{
