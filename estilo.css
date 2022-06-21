@@ -20,11 +20,7 @@ header p{
     display: inline-block;
 }
 
-#logo { 
-    position: relative; 
-    background-color: greenyellow;
-    width: 100; 
-}
+
 
 nav#menu{
     display: block;
