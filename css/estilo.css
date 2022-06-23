@@ -2,6 +2,8 @@
 body{
     font-family: nunito,sans-serif;
     color: #1c1c1c;
+    height:100%; 
+    width:50%;
 }
 
 <h1, h2, h3{
@@ -21,7 +23,9 @@ header p{
 }
 
 #logo{
-    position: relative;    
+    position: absolute;  
+    width: ="90";
+    height: ="95"; 
 }
 
 nav#menu{
