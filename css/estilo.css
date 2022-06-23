@@ -23,7 +23,7 @@ header p{
 }
 
 #logo{
-    position: absolute;  
+    position: relative;  
     width: ="90";
     height: ="95"; 
 }
