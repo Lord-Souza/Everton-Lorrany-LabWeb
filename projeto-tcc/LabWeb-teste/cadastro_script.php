@@ -62,7 +62,7 @@
         $gestante = $_POST{'gestante'};
 
 
-        $sql = "INSERT INTO 'cadastro' ('nome', 'nascimento', 'email', 'telefone', 'sexo', 'diabetico', 'hipertenso', 'gestante')
+        $sql = "INSERT INTO 'cadastro' ('nome', 'nascimento', 'email', 'telefone', 'sexo', 'diabetico', 'hipertenso', 'gestante');
 
         VALUES ('$nome', '$nascimento', '$email', '$telefone', '$sexo', '$diabetico', '$hipertenso', 'gestante')";
 
@@ -71,7 +71,7 @@
 
         }else{
           echo "$nome NÃO foi cadastrado";
-        }
+        };
 
 
       ?>
