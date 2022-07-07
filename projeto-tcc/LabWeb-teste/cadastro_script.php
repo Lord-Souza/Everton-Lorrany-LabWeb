@@ -51,9 +51,8 @@
       <?php
       include "conexao.php"
 
-
         $nome = $_POST{'nome'};
-        $dataNascimento = $_POST{'dataNascimento'};
+        $dataNascimento = $_POST{'Nascimento'};
         $email = $_POST{'email'};
         $telefone = $_POST{'telefone'};
         $sexo = $_POST{'sexo'};
