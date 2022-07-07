@@ -6,8 +6,11 @@
 
 	if ($conn = mysqli_connect($serve, $user, $pass, $bd)){
 		//echo "Conectado";
-	}else
+	}else {
+
 		echo "Erro";
+	}
+		
 
 			}
 		}
