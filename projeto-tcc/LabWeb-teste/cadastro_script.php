@@ -67,11 +67,11 @@
         VALUES ('$nome', '$nascimento', '$email', '$telefone', '$sexo', '$diabetico', '$hipertenso', 'gestante')";
 
         if (mysqli_querry($conn, $sql)) {
-            echo "$nome cadastrado com sucesso!"
+            echo "$nome cadastrado com sucesso!";
 
         } else {
-          echo "$nome NÃO foi cadastrado"
-        };
+          echo "$nome NÃO foi cadastrado";
+        }
 
 
       ?>
