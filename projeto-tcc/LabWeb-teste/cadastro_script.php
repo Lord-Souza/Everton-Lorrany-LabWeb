@@ -61,9 +61,9 @@
         $gestante = $_POST{'gestante'};
 
 
-        $sql = "INSERT INTO 'cadastro' ('nome', 'nascimento', 'email', 'telefone', 'sexo', 'diabetico', 'hipertenso', 'gestante')
+        $sql = "INSERT INTO 'cadastro' ('nome', 'nascimento', 'email', 'telefone', 'sexo', 'diabetico', 'hipertenso', 'gestante') 
 
-        VALUES ('$nome', '$nascimento', '$email', '$telefone', '$sexo', '$diabetico', '$hipertenso', 'gestante')";
+        VALUES ('$nome', '$nascimento', '$email', '$telefone', '$sexo', '$diabetico', '$hipertenso', '$gestante')";
 
         if (mysqli_querry($conn, $sql)) {
             echo "$nome cadastrado com sucesso!"
