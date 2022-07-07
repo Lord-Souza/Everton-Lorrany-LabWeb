@@ -5,7 +5,7 @@
 	$bd = "LabWeb"
 
 	if ($conn = mysqli_connect($serve, $user, $pass, $bd)){
-		echo "Conectado";
+		//echo "Conectado";
 	}else
 		echo "Erro";
 
