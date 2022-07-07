@@ -47,7 +47,7 @@
 <br>
 <br>
  <div class="container">
-    <form>
+    <form action="cadastro_script.php" method="POST">
       <h1 id="titulo"><strong>Cadastro de Paciente</strong></h1>
         <div class="input-group">
           <span class="input-group-text"><strong>Nome Completo</strong></span>
@@ -91,15 +91,18 @@
             <option value="Não sabe">Não sabe</option>
           </select>
         </div>
+
         <div class="input-group">
           <span class="input-group-text"><strong>Você está Gestante?</strong></span>
-        <select class="form-select" aria-label="Disabled select example" disabled>
+        <select class="form-select" aria-label="Disabled select example">
           <option selected>Marque uma opção.</option>
           <option value="Sim">Sim</option>
           <option value="Não">Não</option>
           <option value="Não sabe">Não sabe</option>
+
         </select>
       </div>
+
       <button class="btn btn-primary" type="submit" onsubmit="">Concluído</button>
       </form>
 
