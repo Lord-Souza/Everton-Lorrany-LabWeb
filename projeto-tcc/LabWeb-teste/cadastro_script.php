@@ -69,8 +69,8 @@
         if (mysqli_querry($conn, $sql)) {
             echo "$nome cadastrado com sucesso!"
 
-        }else{
-          echo "$nome NÃO foi cadastrado";
+        } else {
+          echo "$nome NÃO foi cadastrado"
         };
 
 
