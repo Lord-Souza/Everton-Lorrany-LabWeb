@@ -1,11 +1,20 @@
-<?php 
-	$server = 'localhost';
-	$user = "root";
-	$pass = "";
-	$bd = "LabWeb";
+<?php
+	import java.sql.connection;
 
-	if(mysqli_connect($serve, $user, $pass, $bd);) {
-		echo "Conectado!";
-	} else
-		echo "Erro!";
+		public class conexao {
+			private static connection;
+			private static final string DRIVER = "com.mysql.jbdc.Driver";
+			private static final string SERVIDOR = "127.0.0.1";
+			private static final string PORTA = "3306";
+			private static final string BANCO = "FIAP";
+			private static final string URL = "jbdc:mysqli_connect:/" + SERVIDOR + ":" + PORTA + "/" + BANCO;
+			private static final string USUARIO= "root";
+			private static final string SENHA= "";
+
+
+			private conexao(){
+
+				
+			}
+		}
 ?>
