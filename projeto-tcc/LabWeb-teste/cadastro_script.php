@@ -49,7 +49,8 @@
  <div class="container">
     <div class="row">
       <?php
-      include "conexao.php"
+      <include "conexao.php">
+
 
         $nome = $_POST{'nome'};
         $dataNascimento = $_POST{'Nascimento'};
