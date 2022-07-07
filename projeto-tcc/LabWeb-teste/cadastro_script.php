@@ -52,7 +52,7 @@
       include "conexao.php"
 
 
-        $nome = $_POST{'nomeCompleto'};
+        $nome = $_POST{'nome'};
         $dataNascimento = $_POST{'dataNascimento'};
         $email = $_POST{'email'};
         $telefone = $_POST{'telefone'};
