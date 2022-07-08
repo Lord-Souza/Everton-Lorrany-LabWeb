@@ -1,5 +1,5 @@
 <?php
-	$serve = "127.0.0.1:3306";
+	$serve = "127.0.0.1";
 	$user = "root";
 	$pass = "";
 	$bd = "LabWeb"
