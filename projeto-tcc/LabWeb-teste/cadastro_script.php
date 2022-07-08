@@ -63,8 +63,6 @@
 
 
 
-        $sql = "INSERT INTO 'cadastro' ('nome', 'nascimento', 'email', 'telefone', 'sexo', 'diabetico', 'hipertenso', 'gestante') 
-
         $sql = "INSERT INTO 'cadastro' ('nome', 'nascimento', 'email', 'telefone', 'sexo', 'diabetico', 'hipertenso', 'gestante');
 
 
